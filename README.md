@@ -1,4 +1,0 @@
-CXProfessor
-===========
-
-linux
