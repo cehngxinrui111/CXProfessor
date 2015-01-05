@@ -1,0 +1,15 @@
+#include <stdio.h>
+main()
+{
+float voltage, current;
+int w;
+printf("Enter the voltage : ");
+scanf("%f", &voltage);printf("Enter the current : ");
+scanf("%f", &current);
+w=current*voltage;
+if(w<0.5)
+printf("Okey to use half watt resistor");
+else
+printf("haff watt registor will not be okey");
+getch( );
+}
