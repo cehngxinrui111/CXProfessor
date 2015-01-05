@@ -1,0 +1,23 @@
+#include "stdio.h"
+main()
+{ 
+    int i,j,temp; 
+    int a[10];
+
+    i=0;
+    while(i<10)
+
+        scanf ("%d,",&a[i++]);
+    for(j=1;j<=9;j++)
+    {   for (i=0;i<10-j;i++)
+        if (a[i]>a[i+1]) 
+        {   temp=a[i];
+            a[i]=a[i+1]; 
+            a[i+1]=temp;}
+        }
+    printf("\n");
+    for(i=0;i<10;i++)
+        printf("%5d",a[i] );
+    printf("\n"); 
+    getch();
+}
