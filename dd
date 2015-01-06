@@ -1,0 +1,13 @@
+void cbfunc()
+{
+   printf("I am called .\n");
+}
+
+int main()
+{
+  /*function pointer*/
+  void(*callback)(void);
+  /*perform callback*/
+  callback();
+  return 0;
+  }
